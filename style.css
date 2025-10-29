@@ -30,6 +30,25 @@ main section {
     font-family: var(--std-font);
 }
 
-#section-about-us {
-    
+#services-area {
+    display: flex;
+    gap: 50px;
+}
+
+#services-area div {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0 0 20px ;
+    overflow: hidden;
+}
+
+#services-area div h2 {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+#services-area div li {
+    margin: 10px 10px 0;
 }
