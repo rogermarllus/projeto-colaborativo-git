@@ -4,9 +4,32 @@
 }
 
 :root {
-    
+    --primary-color: darkcyan;
+    --secondary-color: cyan;
+
+    --std-gap: 15px;
+
+    --std-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 main {
     width: 100%;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--std-gap);
+
+    padding: 50px 10%;
+    border: 5px solid var(--primary-color);
+    background-color: white;
+
+    font-family: var(--std-font);
+}
+
+#section-about-us {
+    
 }
