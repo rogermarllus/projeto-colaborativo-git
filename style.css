@@ -5,8 +5,50 @@
 
 :root {
     --primary-color: darkcyan;
+    --secondary-color: cyan;
+    --std-gap: 15px;
+    --std-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-    --std-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+main {
+    width: 100%;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--std-gap);
+
+    padding: 50px 10%;
+    border: 5px solid var(--primary-color);
+    background-color: white;
+
+    font-family: var(--std-font);
+}
+
+#services-area {
+    display: flex;
+    gap: 50px;
+}
+
+#services-area div {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0 0 20px ;
+    overflow: hidden;
+}
+
+#services-area div h2 {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+#services-area div li {
+    margin: 10px 10px 0;
 }
 
 nav {
@@ -21,7 +63,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    font-family: var(--std-font-family);
+    font-family: var(--std-font);
     font-size: 20px;
 }
 
