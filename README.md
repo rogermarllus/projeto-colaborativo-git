@@ -7,9 +7,10 @@ O objetivo é criar uma **página institucional simples** para a empresa fictíc
 
 ## Estrutura do site
 
-O site é composto por três partes principais:
+O site é composto por quatro partes principais:
 
 - **Cabeçalho (Header):** com o nome da empresa e um menu de navegação.
+- **Menu de Navegação (Nav):** com opções que facilitam a navegação dentro do site.
 - **Seção principal (Main):** apresentando a empresa e seus valores.
 - **Rodapé (Footer):** contendo informações de contato e direitos autorais.
 
@@ -27,7 +28,8 @@ A divisão das tarefas e branches foi a seguinte:
 
 - **Mateus Coelho**
 
-  - ainda em desenvolvimento
+  - `feat/main` → desenvolvimento do conteúdo principal do site
+  - `feat/nav` → desenvolvimento do menu de navegação
 
 - **Roger Leal**
   - `feat/header` → desenvolvimento do cabeçalho
@@ -36,9 +38,15 @@ A divisão das tarefas e branches foi a seguinte:
 
 > Padrão de commits: Usamos **Conventional Commits**, garantindo mensagens claras e padronizadas para cada alteração.
 
-Após o desenvolvimento, as alterações foram integradas na branch principal (**main**) por meio de **pull requests** revisados e aprovados.
-
 ## Integrantes
 
 - **Roger Leal**
 - **Mateus Coelho**
+
+## Resultado final
+
+O projeto final consiste em uma página funcional e estilizada, representando o site institucional da TechWave.
+
+## Repositório no GitHub
+
+[Acesse o repositório aqui](https://github.com/rogermarllus/projeto-colaborativo-git)
