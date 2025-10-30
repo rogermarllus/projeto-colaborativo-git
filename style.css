@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -8,6 +8,36 @@
     --secondary-color: cyan;
     --std-gap: 15px;
     --std-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img.icon {
+  width: 30px;
+}
+
+footer {
+  background-color: cadetblue;
+  color: azure;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+footer * {
+  margin: 5px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p.p-footer {
+  font-size: 1.1em;
 }
 
 main {
@@ -69,11 +99,6 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-}
-
-body {
-  padding: 0px;
-  margin: 0px;
 }
 
 header {
