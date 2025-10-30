@@ -52,7 +52,6 @@ main section {
     gap: var(--std-gap);
 
     padding: 50px 10%;
-    border: 5px solid var(--primary-color);
     background-color: white;
 
     font-family: var(--std-font);
@@ -75,6 +74,7 @@ main section {
     padding: 20px 0;
     width: 100%;
     background-color: var(--primary-color);
+    color: white;
 }
 
 #services-area div li {
