@@ -1,6 +1,13 @@
-body {
-  margin: 0px;
-  padding: 0px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --primary-color: darkcyan;
+    --secondary-color: cyan;
+    --std-gap: 15px;
+    --std-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 img.icon {
@@ -31,4 +38,89 @@ footer div {
 
 p.p-footer {
   font-size: 1.1em;
+}
+
+main {
+    width: 100%;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--std-gap);
+
+    padding: 50px 10%;
+    border: 5px solid var(--primary-color);
+    background-color: white;
+
+    font-family: var(--std-font);
+}
+
+#services-area {
+    display: flex;
+    gap: 50px;
+}
+
+#services-area div {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0 0 20px ;
+    overflow: hidden;
+}
+
+#services-area div h2 {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+#services-area div li {
+    margin: 10px 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+    background-color: var(--primary-color);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--std-font);
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  background-color: cadetblue;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header * {
+  text-align: center;
+  color: azure;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+p#p-header {
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 2.5em;
 }
