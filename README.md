@@ -7,11 +7,14 @@ O objetivo é criar uma **página institucional simples** para a empresa fictíc
 
 ## Estrutura do site
 
-O site é composto por três partes principais:
+O site é composto por quatro partes principais:
 
-- **Cabeçalho:** com o nome da empresa e um menu de navegação.
-- **Seção principal:** apresentando a empresa e seus valores.
-- **Rodapé:** contendo informações de contato e direitos autorais.
+- **Cabeçalho (Header):** com o nome da empresa e um menu de navegação.
+- **Menu de Navegação (Nav):** com opções que facilitam a navegação dentro do site.
+- **Seção principal (Main):** apresentando a empresa e seus valores.
+- **Rodapé (Footer):** contendo informações de contato e direitos autorais.
+
+> Observação: Os nomes de classes CSS e identificadores foram definidos em **inglês**, seguindo boas práticas de desenvolvimento.
 
 ## Tecnologias utilizadas
 
@@ -21,9 +24,19 @@ O site é composto por três partes principais:
 
 ## Organização do desenvolvimento
 
-Cada integrante trabalhou em uma branch independente:
+A divisão das tarefas e branches foi a seguinte:
 
-- A DEFINIR
+- **Mateus Coelho**
+
+  - `feat/main` → desenvolvimento do conteúdo principal do site
+  - `feat/nav` → desenvolvimento do menu de navegação
+
+- **Roger Leal**
+  - `feat/header` → desenvolvimento do cabeçalho
+  - `feat/footer` → desenvolvimento do rodapé
+  - `docs/readme` → atualização do README
+
+> Padrão de commits: Usamos **Conventional Commits**, garantindo mensagens claras e padronizadas para cada alteração.
 
 ## Integrantes
 
@@ -32,7 +45,7 @@ Cada integrante trabalhou em uma branch independente:
 
 ## Resultado final
 
-O projeto final consiste em uma página funcional e estilizada, representando o site institucional da **TechWave**.
+O projeto final consiste em uma página funcional e estilizada, representando o site institucional da TechWave.
 
 ## Repositório no GitHub
 
