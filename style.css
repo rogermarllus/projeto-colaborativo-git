@@ -52,7 +52,6 @@ main section {
     gap: var(--std-gap);
 
     padding: 50px 10%;
-    border: 5px solid var(--primary-color);
     background-color: white;
 
     font-family: var(--std-font);
